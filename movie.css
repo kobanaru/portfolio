@@ -96,3 +96,9 @@ header{
     transform-origin: left top;
 }
 /***トップへ戻るボタンここまで***/
+
+/* ----- footer ----- */
+.footer {
+    text-align: center;
+    padding: 40px;
+}
