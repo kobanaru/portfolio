@@ -26,8 +26,19 @@
     margin-top: 50px;
  }
 
- .portfolio {
-    font-size: 50px;
+ .portfolio img {
+    width: 600px;
+    height: 450px;
+    position: relative;
+    top: 60px;
+    left: 200px;
+    border-radius: 10px;
+}
+.portfolio p {
+    font-size: 60px;
+    position: relative;
+    top: -230px;
+    left: 950px;
  }
 
  .menu {
@@ -124,6 +135,8 @@ header{
     top: 60px;
     left: 350px;
     border-radius: 35px;
+    width: 300px;
+    height: 400px;
 }
 .profile p,.profile h1  {
     position: relative;
@@ -175,10 +188,23 @@ header{
     border: 3px solid #6F989D;
 }
 
+/* namecard */
+/* 戻るボタン */
+button {
+    margin-left: 100px;
+    font-size: 25px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+    position: fixed;
+  
+}
+button:hover {
+    background-color: #a9d9e0;
+    transition: transform .3s;
+}
 
-
-
-
+/* namecard */
 
 /* 見てくれてありがとうメッセージ */
 .message {
