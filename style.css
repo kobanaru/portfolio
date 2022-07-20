@@ -120,12 +120,34 @@ header{
     display: flex;
     flex-wrap: wrap;
 }
+.box {
+    padding: 70px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    transition: 0.5s;
+}
+.box img {
+    width: 400px;
+    height: 300px;
+    border: 3px solid #6F989D;
+}
 .box_size {
     padding: 70px;
     margin: 10px;
     border-radius: 5px;
     font-size: 30px;
     text-align: center;
+}
+.box_size img {
+    width: 400px;
+    height: 300px;
+    border: 3px solid #6F989D;
+}
+.box:hover {
+    transform: scale(1.1, 1.1);
 }
 
 .profile img {
@@ -179,12 +201,6 @@ header{
     transform-origin: left top;
 }
 /***トップへ戻るボタンここまで***/
-
-.box_size img {
-    width: 400px;
-    height: 300px;
-    border: 3px solid #6F989D;
-}
 
 /* namecard */
 /* 戻るボタン */
